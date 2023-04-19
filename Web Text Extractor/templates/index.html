@@ -1,0 +1,51 @@
+<!-- <form method="post">
+    <label for="url">Enter the URL of a website:</label>
+    <input type="text" id="url" name="url">
+    <input type="submit" value="Submit">
+</form> -->
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<div>
+<div class="form" >
+    <form action="" method="post">
+    <div class="title">Welcome</div>
+    <div class="subtitle">Enter the URL of the Website!</div>
+    <div class="input-container ic1">
+      <input name="url" id="url" class="input" type="text" placeholder=" " required/>
+      <div class="cut"></div>
+      <label for="url" class="placeholder">URL</label>
+    </div>
+    <div class="input-container ic2">
+      <select name="Lang" id="lastname" class="input" type="text" placeholder=" " />
+        <option value="en" selected disabled>English</option>
+        <option value="hi">Hindi</option>
+        <option value="ar">Arabic</option>
+        <option value="de">German</option>
+    </select>
+      <div class="cut"></div>
+      <label for="lastname" class="placeholder">Language</label>
+    </div>
+
+    <button onclick="scrollWin()" type="text" class="submit" value="Submit">Submit</button>
+</form>
+
+</div>
+<div>
+
+    {% if text %}
+<h1 >Website Text:</h1>
+<p style="color: azure; width: 1000px; text-align: justify; font: 1em sans-serif;">{{ text }}</p>
+{% endif %}
+
+</div>
+</div>
+
+<script>
+    function scrollWin() {
+  window.scrollWin(0, 1000);
+  alert("Dine");
+}
+</script>
+
+ 
