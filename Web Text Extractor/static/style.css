@@ -136,4 +136,27 @@ body {
   .submit:active {
     background-color: #06b;
   }
+
+  .article{
+    color: rgb(215, 253, 255);
+    width: 1000px;
+    text-align: center; 
+    font: 2.5em sans-serif;
+    font-weight: 600;
+  }
   
+  .content{
+      color: rgb(220, 228, 228);
+      width: 1000px;
+      text-align: justify; 
+      font: 1.1em sans-serif;
+      line-height: 1.5;
+    }
+    
+    .keywords{
+      color: rgb(249, 199, 107);
+      width: 1000px;
+      text-align: center; 
+      font: 1.5em arial;
+    }
+    
