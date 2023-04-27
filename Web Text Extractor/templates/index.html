@@ -35,8 +35,11 @@
 
     {% if text %}
         <h1  class="article">{{ title }}</h1>
-        <p class= "content">{{ text }}</p>
-        <h3 class="keywords">{{ keywords }}</h3>
+        <!-- <p class= "content">{{ text }}</p> -->
+        <!-- <h3 class="keywords">{{ keywords }}</h3> -->
+        <div style="color: azure; width: 80rem; word-wrap: normal;">
+          {{ result|markdown }}
+        </div>
     {% endif %}
 
 </div>

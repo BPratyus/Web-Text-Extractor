@@ -141,7 +141,9 @@ body {
     color: rgb(215, 253, 255);
     width: 1000px;
     text-align: center; 
+    place-self: center;
     font: 2.5em sans-serif;
+    margin-left: 8rem;
     font-weight: 600;
   }
   
