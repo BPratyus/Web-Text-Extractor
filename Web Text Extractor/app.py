@@ -1,7 +1,4 @@
 from flask import *
-# from keras.models import load_model
-# import requests
-# from bs4 import BeautifulSoup
 from newspaper import Article
 
 import spacy
