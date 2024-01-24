@@ -18,7 +18,7 @@ feedfinder2==0.0.4
 feedparser==6.0.8
 filelock==3.13.1
 Flask==2.2.5
-Flask-Markdown==dev
+Flask-Markdown==0.3
 idna==2.10
 importlib-metadata==7.0.1
 importlib-resources==6.1.1
